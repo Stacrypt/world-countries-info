@@ -167,13 +167,13 @@
         "affectsGlobalScope": false
       },
       "./src/getcountry/getcountry.ts": {
-        "version": "f91d072412a33ea9545a9a3d5403544c376b0f1830c3dc1ddcc0dedd12b03ed9",
-        "signature": "c4e7e12fe74a5622625c7d8cd1b8eec8ec78e495e515b1f641bcdc2f3511f551",
+        "version": "1d223255ddba5bcedb3794bb20c3dc58803f8247905fa2edd6a176c8fc77df5f",
+        "signature": "569c53517e5d732369bde7df5bf9e95b319bfe2fb4285e69451e99ad7688b8a8",
         "affectsGlobalScope": false
       },
       "./src/getcountry/getcountrybydialcode.ts": {
-        "version": "2b93094e17c16327ea430d47ad268205119c069a9abea75f300d795296535965",
-        "signature": "9dc745cd946fb1659e760877e331fe12de27d0b51a070f20441a0e5413c0525f",
+        "version": "454a64c4d0daf39ba80bd1f2089672146576048e636f6c63d0bd0b3f2a9c82c3",
+        "signature": "81371efe76e23b3139e3eab6a8ac0ed73d58e0e4634bb41561228df2f9e9c8c9",
         "affectsGlobalScope": false
       },
       "./src/getcountry/index.ts": {

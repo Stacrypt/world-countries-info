@@ -1,13 +1,23 @@
 {
-  "name": "countries-info",
+  "name": "world-countries-info",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "List of countries with useful info, and search functions",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json"
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so-heil/world-countries-info.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "so-heil",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
