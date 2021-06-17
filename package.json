@@ -1,5 +1,5 @@
 {
-  "name": "world-countries-info",
+  "name": "@stacrypt/world-countries-info",
   "version": "1.0.0",
   "description": "List of countries with useful info, and search functions",
   "main": "lib/index.js",
