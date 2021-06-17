@@ -1,7 +1,8 @@
 name: NPM publish workflow
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - '*'
 jobs:
   test:
     runs-on: ubuntu-latest
