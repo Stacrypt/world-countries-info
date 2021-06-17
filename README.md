@@ -18,12 +18,12 @@ import countries, { getCountry, getCountryByDialCode, getFullSvgUrl } from 'worl
 countries.filter(country => country.emoji === "🇺🇸")
 
 
-// This function to find the correct country based on it's name (english, and persian) or code (alpha2, alpha3, numeric) or even it's emoji!
+// Use this function to find the correct country based on it's name (english, and persian) or code (alpha2, alpha3, numeric) or even it's emoji!
 
 const US = getCountry("US")
 
 
-// This function to find the correct country based on it's dial code
+// Use this function to find the correct country based on it's dial code
 
 const Netherlands = getCountryByDialCode(528)
 
