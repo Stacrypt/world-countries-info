@@ -14,18 +14,7 @@ const US = {
 };
 
 test("getCountry tests", () => {
-  const queries = [
-    "us",
-    "uS",
-    "usa",
-    "UsA",
-    "united states",
-    "UniTEd STaTEs",
-    "🇺🇸",
-    "ایالات متحده",
-    840,
-    "840",
-  ];
+  const queries = ["us", "uS", "usa", "UsA", 840, "840"];
   queries.forEach((query) => {
     expect(getCountry(query)).toStrictEqual(US);
   });
