@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "tsc && jest --config jestconfig.json",
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
