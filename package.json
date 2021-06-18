@@ -16,7 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/Stacrypt/world-countries-info.git"
   },
-  "keywords": [],
+  "keywords": [
+    "contries",
+    "alpha2",
+    "alpha3",
+    "flags",
+    "dial_number_prefixes"
+  ],
   "author": "so-heil",
   "license": "ISC",
   "devDependencies": {
