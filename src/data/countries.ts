@@ -1,7 +1,7 @@
 import { Country } from "./Country";
 
-const countries: Country[] = [
-  {
+export const alpha2ToCountries: Record<string, Country> = {
+  AF: {
     alpha2: "AF",
     alpha3: "AFG",
     name: {
@@ -14,7 +14,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1EB",
     numericCode: "004",
   },
-  {
+  AX: {
     alpha2: "AX",
     alpha3: "ALA",
     name: {
@@ -27,7 +27,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1FD",
     numericCode: "248",
   },
-  {
+  AL: {
     alpha2: "AL",
     alpha3: "ALB",
     name: {
@@ -40,7 +40,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F1",
     numericCode: "008",
   },
-  {
+  DZ: {
     alpha2: "DZ",
     alpha3: "DZA",
     name: {
@@ -53,7 +53,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1FF",
     numericCode: "012",
   },
-  {
+  AS: {
     alpha2: "AS",
     alpha3: "ASM",
     name: {
@@ -66,7 +66,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F8",
     numericCode: "016",
   },
-  {
+  AD: {
     alpha2: "AD",
     alpha3: "AND",
     name: {
@@ -79,7 +79,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1E9",
     numericCode: "020",
   },
-  {
+  AO: {
     alpha2: "AO",
     alpha3: "AGO",
     name: {
@@ -92,7 +92,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F4",
     numericCode: "024",
   },
-  {
+  AI: {
     alpha2: "AI",
     alpha3: "AIA",
     name: {
@@ -105,7 +105,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1EE",
     numericCode: "660",
   },
-  {
+  AQ: {
     alpha2: "AQ",
     alpha3: "ATA",
     name: {
@@ -118,7 +118,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F6",
     numericCode: "010",
   },
-  {
+  AG: {
     alpha2: "AG",
     alpha3: "ATG",
     name: {
@@ -131,7 +131,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1EC",
     numericCode: "028",
   },
-  {
+  AR: {
     alpha2: "AR",
     alpha3: "ARG",
     name: {
@@ -144,7 +144,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F7",
     numericCode: "032",
   },
-  {
+  AM: {
     alpha2: "AM",
     alpha3: "ARM",
     name: {
@@ -157,7 +157,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F2",
     numericCode: "051",
   },
-  {
+  AW: {
     alpha2: "AW",
     alpha3: "ABW",
     name: {
@@ -170,7 +170,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1FC",
     numericCode: "533",
   },
-  {
+  AU: {
     alpha2: "AU",
     alpha3: "AUS",
     name: {
@@ -183,7 +183,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1FA",
     numericCode: "036",
   },
-  {
+  AT: {
     alpha2: "AT",
     alpha3: "AUT",
     name: {
@@ -196,7 +196,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1F9",
     numericCode: "040",
   },
-  {
+  AZ: {
     alpha2: "AZ",
     alpha3: "AZE",
     name: {
@@ -209,7 +209,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1FF",
     numericCode: "031",
   },
-  {
+  BS: {
     alpha2: "BS",
     alpha3: "BHS",
     name: {
@@ -222,7 +222,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F8",
     numericCode: "044",
   },
-  {
+  BH: {
     alpha2: "BH",
     alpha3: "BHR",
     name: {
@@ -235,7 +235,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1ED",
     numericCode: "048",
   },
-  {
+  BD: {
     alpha2: "BD",
     alpha3: "BGD",
     name: {
@@ -248,7 +248,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1E9",
     numericCode: "050",
   },
-  {
+  BB: {
     alpha2: "BB",
     alpha3: "BRB",
     name: {
@@ -261,7 +261,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1E7",
     numericCode: "052",
   },
-  {
+  BY: {
     alpha2: "BY",
     alpha3: "BLR",
     name: {
@@ -274,7 +274,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1FE",
     numericCode: "112",
   },
-  {
+  BE: {
     alpha2: "BE",
     alpha3: "BEL",
     name: {
@@ -287,7 +287,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1EA",
     numericCode: "056",
   },
-  {
+  BZ: {
     alpha2: "BZ",
     alpha3: "BLZ",
     name: {
@@ -300,7 +300,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1FF",
     numericCode: "084",
   },
-  {
+  BJ: {
     alpha2: "BJ",
     alpha3: "BEN",
     name: {
@@ -313,7 +313,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1EF",
     numericCode: "204",
   },
-  {
+  BM: {
     alpha2: "BM",
     alpha3: "BMU",
     name: {
@@ -326,7 +326,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F2",
     numericCode: "060",
   },
-  {
+  BT: {
     alpha2: "BT",
     alpha3: "BTN",
     name: {
@@ -339,7 +339,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F9",
     numericCode: "064",
   },
-  {
+  BO: {
     alpha2: "BO",
     alpha3: "BOL",
     name: {
@@ -352,7 +352,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F4",
     numericCode: "068",
   },
-  {
+  BA: {
     alpha2: "BA",
     alpha3: "BIH",
     name: {
@@ -365,7 +365,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1E6",
     numericCode: "070",
   },
-  {
+  BW: {
     alpha2: "BW",
     alpha3: "BWA",
     name: {
@@ -378,7 +378,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1FC",
     numericCode: "072",
   },
-  {
+  BV: {
     alpha2: "BV",
     alpha3: "BVT",
     name: {
@@ -391,7 +391,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1FB",
     numericCode: "074",
   },
-  {
+  BR: {
     alpha2: "BR",
     alpha3: "BRA",
     name: {
@@ -404,11 +404,12 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F7",
     numericCode: "076",
   },
-  {
+  IO: {
     alpha2: "IO",
     alpha3: "IOT",
     name: {
-      en: "/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg",
+      en:
+        "/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg",
       fa: "قلمروی اقیانوس هند بریتانیا",
     },
     dialCode: "+246",
@@ -418,7 +419,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F4",
     numericCode: "086",
   },
-  {
+  BN: {
     alpha2: "BN",
     alpha3: "BRN",
     name: {
@@ -431,7 +432,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F3",
     numericCode: "096",
   },
-  {
+  BG: {
     alpha2: "BG",
     alpha3: "BGR",
     name: {
@@ -444,7 +445,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1EC",
     numericCode: "100",
   },
-  {
+  BF: {
     alpha2: "BF",
     alpha3: "BFA",
     name: {
@@ -457,7 +458,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1EB",
     numericCode: "854",
   },
-  {
+  BI: {
     alpha2: "BI",
     alpha3: "BDI",
     name: {
@@ -470,7 +471,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1EE",
     numericCode: "108",
   },
-  {
+  KH: {
     alpha2: "KH",
     alpha3: "KHM",
     name: {
@@ -483,7 +484,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1ED",
     numericCode: "116",
   },
-  {
+  CM: {
     alpha2: "CM",
     alpha3: "CMR",
     name: {
@@ -496,7 +497,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F2",
     numericCode: "120",
   },
-  {
+  CA: {
     alpha2: "CA",
     alpha3: "CAN",
     name: {
@@ -509,7 +510,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1E6",
     numericCode: "124",
   },
-  {
+  CV: {
     alpha2: "CV",
     alpha3: "CPV",
     name: {
@@ -522,7 +523,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1FB",
     numericCode: "132",
   },
-  {
+  KY: {
     alpha2: "KY",
     alpha3: "CYM",
     name: {
@@ -535,7 +536,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1FE",
     numericCode: "136",
   },
-  {
+  CF: {
     alpha2: "CF",
     alpha3: "CAF",
     name: {
@@ -548,7 +549,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1EB",
     numericCode: "140",
   },
-  {
+  TD: {
     alpha2: "TD",
     alpha3: "TCD",
     name: {
@@ -561,7 +562,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1E9",
     numericCode: "148",
   },
-  {
+  CL: {
     alpha2: "CL",
     alpha3: "CHL",
     name: {
@@ -574,7 +575,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F1",
     numericCode: "152",
   },
-  {
+  CN: {
     alpha2: "CN",
     alpha3: "CHN",
     name: {
@@ -587,7 +588,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F3",
     numericCode: "156",
   },
-  {
+  CX: {
     alpha2: "CX",
     alpha3: "CXR",
     name: {
@@ -600,7 +601,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1FD",
     numericCode: "162",
   },
-  {
+  CC: {
     alpha2: "CC",
     alpha3: "CCK",
     name: {
@@ -613,7 +614,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1E8",
     numericCode: "166",
   },
-  {
+  CO: {
     alpha2: "CO",
     alpha3: "COL",
     name: {
@@ -626,7 +627,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F4",
     numericCode: "170",
   },
-  {
+  KM: {
     alpha2: "KM",
     alpha3: "COM",
     name: {
@@ -639,7 +640,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1F2",
     numericCode: "174",
   },
-  {
+  CG: {
     alpha2: "CG",
     alpha3: "COG",
     name: {
@@ -652,7 +653,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1EC",
     numericCode: "178",
   },
-  {
+  CD: {
     alpha2: "CD",
     alpha3: "COD",
     name: {
@@ -665,7 +666,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1E9",
     numericCode: "180",
   },
-  {
+  CK: {
     alpha2: "CK",
     alpha3: "COK",
     name: {
@@ -678,7 +679,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F0",
     numericCode: "184",
   },
-  {
+  CR: {
     alpha2: "CR",
     alpha3: "CRI",
     name: {
@@ -691,7 +692,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1F7",
     numericCode: "188",
   },
-  {
+  CI: {
     alpha2: "CI",
     alpha3: "CIV",
     name: {
@@ -704,7 +705,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1EE",
     numericCode: "384",
   },
-  {
+  HR: {
     alpha2: "HR",
     alpha3: "HRV",
     name: {
@@ -717,7 +718,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1F7",
     numericCode: "191",
   },
-  {
+  CU: {
     alpha2: "CU",
     alpha3: "CUB",
     name: {
@@ -730,7 +731,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1FA",
     numericCode: "192",
   },
-  {
+  CY: {
     alpha2: "CY",
     alpha3: "CYP",
     name: {
@@ -743,7 +744,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1FE",
     numericCode: "196",
   },
-  {
+  CZ: {
     alpha2: "CZ",
     alpha3: "CZE",
     name: {
@@ -756,7 +757,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1FF",
     numericCode: "203",
   },
-  {
+  DK: {
     alpha2: "DK",
     alpha3: "DNK",
     name: {
@@ -769,7 +770,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1F0",
     numericCode: "208",
   },
-  {
+  DJ: {
     alpha2: "DJ",
     alpha3: "DJI",
     name: {
@@ -782,7 +783,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1EF",
     numericCode: "262",
   },
-  {
+  DM: {
     alpha2: "DM",
     alpha3: "DMA",
     name: {
@@ -795,7 +796,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1F2",
     numericCode: "212",
   },
-  {
+  DO: {
     alpha2: "DO",
     alpha3: "DOM",
     name: {
@@ -808,7 +809,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1F4",
     numericCode: "214",
   },
-  {
+  EC: {
     alpha2: "EC",
     alpha3: "ECU",
     name: {
@@ -821,7 +822,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1E8",
     numericCode: "218",
   },
-  {
+  EG: {
     alpha2: "EG",
     alpha3: "EGY",
     name: {
@@ -834,7 +835,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1EC",
     numericCode: "818",
   },
-  {
+  SV: {
     alpha2: "SV",
     alpha3: "SLV",
     name: {
@@ -847,7 +848,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1FB",
     numericCode: "222",
   },
-  {
+  GQ: {
     alpha2: "GQ",
     alpha3: "GNQ",
     name: {
@@ -860,7 +861,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F6",
     numericCode: "226",
   },
-  {
+  ER: {
     alpha2: "ER",
     alpha3: "ERI",
     name: {
@@ -873,7 +874,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1F7",
     numericCode: "232",
   },
-  {
+  EE: {
     alpha2: "EE",
     alpha3: "EST",
     name: {
@@ -886,7 +887,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1EA",
     numericCode: "233",
   },
-  {
+  ET: {
     alpha2: "ET",
     alpha3: "ETH",
     name: {
@@ -899,7 +900,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1F9",
     numericCode: "231",
   },
-  {
+  FK: {
     alpha2: "FK",
     alpha3: "FLK",
     name: {
@@ -912,7 +913,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1F0",
     numericCode: "238",
   },
-  {
+  FO: {
     alpha2: "FO",
     alpha3: "FRO",
     name: {
@@ -925,7 +926,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1F4",
     numericCode: "234",
   },
-  {
+  FJ: {
     alpha2: "FJ",
     alpha3: "FJI",
     name: {
@@ -938,7 +939,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1EF",
     numericCode: "242",
   },
-  {
+  FI: {
     alpha2: "FI",
     alpha3: "FIN",
     name: {
@@ -951,7 +952,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1EE",
     numericCode: "246",
   },
-  {
+  FR: {
     alpha2: "FR",
     alpha3: "FRA",
     name: {
@@ -964,7 +965,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1F7",
     numericCode: "250",
   },
-  {
+  GF: {
     alpha2: "GF",
     alpha3: "GUF",
     name: {
@@ -977,7 +978,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1EB",
     numericCode: "254",
   },
-  {
+  PF: {
     alpha2: "PF",
     alpha3: "PYF",
     name: {
@@ -990,7 +991,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1EB",
     numericCode: "258",
   },
-  {
+  TF: {
     alpha2: "TF",
     alpha3: "ATF",
     name: {
@@ -1003,7 +1004,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1EB",
     numericCode: "260",
   },
-  {
+  GA: {
     alpha2: "GA",
     alpha3: "GAB",
     name: {
@@ -1016,7 +1017,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1E6",
     numericCode: "266",
   },
-  {
+  GM: {
     alpha2: "GM",
     alpha3: "GMB",
     name: {
@@ -1029,7 +1030,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F2",
     numericCode: "270",
   },
-  {
+  GE: {
     alpha2: "GE",
     alpha3: "GEO",
     name: {
@@ -1042,7 +1043,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1EA",
     numericCode: "268",
   },
-  {
+  DE: {
     alpha2: "DE",
     alpha3: "DEU",
     name: {
@@ -1055,7 +1056,7 @@ const countries: Country[] = [
     unicode: "U+1F1E9 U+1F1EA",
     numericCode: "276",
   },
-  {
+  GH: {
     alpha2: "GH",
     alpha3: "GHA",
     name: {
@@ -1068,7 +1069,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1ED",
     numericCode: "288",
   },
-  {
+  GI: {
     alpha2: "GI",
     alpha3: "GIB",
     name: {
@@ -1081,7 +1082,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1EE",
     numericCode: "292",
   },
-  {
+  GR: {
     alpha2: "GR",
     alpha3: "GRC",
     name: {
@@ -1094,7 +1095,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F7",
     numericCode: "300",
   },
-  {
+  GL: {
     alpha2: "GL",
     alpha3: "GRL",
     name: {
@@ -1107,7 +1108,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F1",
     numericCode: "304",
   },
-  {
+  GD: {
     alpha2: "GD",
     alpha3: "GRD",
     name: {
@@ -1120,7 +1121,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1E9",
     numericCode: "308",
   },
-  {
+  GP: {
     alpha2: "GP",
     alpha3: "GLP",
     name: {
@@ -1133,7 +1134,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F5",
     numericCode: "312",
   },
-  {
+  GU: {
     alpha2: "GU",
     alpha3: "GUM",
     name: {
@@ -1146,7 +1147,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1FA",
     numericCode: "316",
   },
-  {
+  GT: {
     alpha2: "GT",
     alpha3: "GTM",
     name: {
@@ -1159,7 +1160,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F9",
     numericCode: "320",
   },
-  {
+  GG: {
     alpha2: "GG",
     alpha3: "GGY",
     name: {
@@ -1172,7 +1173,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1EC",
     numericCode: "831",
   },
-  {
+  GN: {
     alpha2: "GN",
     alpha3: "GIN",
     name: {
@@ -1185,7 +1186,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F3",
     numericCode: "324",
   },
-  {
+  GW: {
     alpha2: "GW",
     alpha3: "GNB",
     name: {
@@ -1198,7 +1199,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1FC",
     numericCode: "624",
   },
-  {
+  GY: {
     alpha2: "GY",
     alpha3: "GUY",
     name: {
@@ -1211,7 +1212,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1FE",
     numericCode: "328",
   },
-  {
+  HT: {
     alpha2: "HT",
     alpha3: "HTI",
     name: {
@@ -1224,7 +1225,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1F9",
     numericCode: "332",
   },
-  {
+  HM: {
     alpha2: "HM",
     alpha3: "HMD",
     name: {
@@ -1237,7 +1238,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1F2",
     numericCode: "334",
   },
-  {
+  VA: {
     alpha2: "VA",
     alpha3: "VAT",
     name: {
@@ -1250,7 +1251,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1E6",
     numericCode: "336",
   },
-  {
+  HN: {
     alpha2: "HN",
     alpha3: "HND",
     name: {
@@ -1263,7 +1264,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1F3",
     numericCode: "340",
   },
-  {
+  HK: {
     alpha2: "HK",
     alpha3: "HKG",
     name: {
@@ -1276,7 +1277,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1F0",
     numericCode: "344",
   },
-  {
+  HU: {
     alpha2: "HU",
     alpha3: "HUN",
     name: {
@@ -1289,7 +1290,7 @@ const countries: Country[] = [
     unicode: "U+1F1ED U+1F1FA",
     numericCode: "348",
   },
-  {
+  IS: {
     alpha2: "IS",
     alpha3: "ISL",
     name: {
@@ -1302,7 +1303,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F8",
     numericCode: "352",
   },
-  {
+  IN: {
     alpha2: "IN",
     alpha3: "IND",
     name: {
@@ -1315,7 +1316,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F3",
     numericCode: "356",
   },
-  {
+  ID: {
     alpha2: "ID",
     alpha3: "IDN",
     name: {
@@ -1328,7 +1329,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1E9",
     numericCode: "360",
   },
-  {
+  IR: {
     alpha2: "IR",
     alpha3: "IRN",
     name: {
@@ -1341,7 +1342,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F7",
     numericCode: "364",
   },
-  {
+  IQ: {
     alpha2: "IQ",
     alpha3: "IRQ",
     name: {
@@ -1354,7 +1355,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F6",
     numericCode: "368",
   },
-  {
+  IE: {
     alpha2: "IE",
     alpha3: "IRL",
     name: {
@@ -1367,7 +1368,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1EA",
     numericCode: "372",
   },
-  {
+  IM: {
     alpha2: "IM",
     alpha3: "IMN",
     name: {
@@ -1380,7 +1381,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F2",
     numericCode: "833",
   },
-  {
+  IL: {
     alpha2: "IL",
     alpha3: "ISR",
     name: {
@@ -1393,7 +1394,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F1",
     numericCode: "376",
   },
-  {
+  IT: {
     alpha2: "IT",
     alpha3: "ITA",
     name: {
@@ -1406,7 +1407,7 @@ const countries: Country[] = [
     unicode: "U+1F1EE U+1F1F9",
     numericCode: "380",
   },
-  {
+  JM: {
     alpha2: "JM",
     alpha3: "JAM",
     name: {
@@ -1419,7 +1420,7 @@ const countries: Country[] = [
     unicode: "U+1F1EF U+1F1F2",
     numericCode: "388",
   },
-  {
+  JP: {
     alpha2: "JP",
     alpha3: "JPN",
     name: {
@@ -1432,7 +1433,7 @@ const countries: Country[] = [
     unicode: "U+1F1EF U+1F1F5",
     numericCode: "392",
   },
-  {
+  JE: {
     alpha2: "JE",
     alpha3: "JEY",
     name: {
@@ -1445,7 +1446,7 @@ const countries: Country[] = [
     unicode: "U+1F1EF U+1F1EA",
     numericCode: "832",
   },
-  {
+  JO: {
     alpha2: "JO",
     alpha3: "JOR",
     name: {
@@ -1458,7 +1459,7 @@ const countries: Country[] = [
     unicode: "U+1F1EF U+1F1F4",
     numericCode: "400",
   },
-  {
+  KZ: {
     alpha2: "KZ",
     alpha3: "KAZ",
     name: {
@@ -1471,7 +1472,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1FF",
     numericCode: "398",
   },
-  {
+  KE: {
     alpha2: "KE",
     alpha3: "KEN",
     name: {
@@ -1484,7 +1485,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1EA",
     numericCode: "404",
   },
-  {
+  KI: {
     alpha2: "KI",
     alpha3: "KIR",
     name: {
@@ -1497,7 +1498,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1EE",
     numericCode: "296",
   },
-  {
+  KP: {
     alpha2: "KP",
     alpha3: "COD",
     name: {
@@ -1510,7 +1511,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1F5",
     numericCode: "408",
   },
-  {
+  KR: {
     alpha2: "KR",
     alpha3: "KOR",
     name: {
@@ -1523,7 +1524,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1F7",
     numericCode: "410",
   },
-  {
+  XK: {
     alpha2: "XK",
     alpha3: "XXK",
     name: {
@@ -1536,7 +1537,7 @@ const countries: Country[] = [
     unicode: "U+1F1FD U+1F1F0",
     numericCode: "926",
   },
-  {
+  KW: {
     alpha2: "KW",
     alpha3: "KWT",
     name: {
@@ -1549,7 +1550,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1FC",
     numericCode: "414",
   },
-  {
+  KG: {
     alpha2: "KG",
     alpha3: "KGZ",
     name: {
@@ -1562,7 +1563,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1EC",
     numericCode: "417",
   },
-  {
+  LA: {
     alpha2: "LA",
     alpha3: "LAO",
     name: {
@@ -1575,7 +1576,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1E6",
     numericCode: "418",
   },
-  {
+  LV: {
     alpha2: "LV",
     alpha3: "LVA",
     name: {
@@ -1588,7 +1589,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1FB",
     numericCode: "428",
   },
-  {
+  LB: {
     alpha2: "LB",
     alpha3: "LBN",
     name: {
@@ -1601,7 +1602,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1E7",
     numericCode: "422",
   },
-  {
+  LS: {
     alpha2: "LS",
     alpha3: "LSO",
     name: {
@@ -1614,7 +1615,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1F8",
     numericCode: "426",
   },
-  {
+  LR: {
     alpha2: "LR",
     alpha3: "LBR",
     name: {
@@ -1627,7 +1628,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1F7",
     numericCode: "430",
   },
-  {
+  LY: {
     alpha2: "LY",
     alpha3: "LBY",
     name: {
@@ -1640,7 +1641,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1FE",
     numericCode: "434",
   },
-  {
+  LI: {
     alpha2: "LI",
     alpha3: "LIE",
     name: {
@@ -1653,7 +1654,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1EE",
     numericCode: "438",
   },
-  {
+  LT: {
     alpha2: "LT",
     alpha3: "LTU",
     name: {
@@ -1666,7 +1667,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1F9",
     numericCode: "440",
   },
-  {
+  LU: {
     alpha2: "LU",
     alpha3: "LUX",
     name: {
@@ -1679,7 +1680,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1FA",
     numericCode: "442",
   },
-  {
+  MO: {
     alpha2: "MO",
     alpha3: "MAC",
     name: {
@@ -1692,7 +1693,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F4",
     numericCode: "446",
   },
-  {
+  MK: {
     alpha2: "MK",
     alpha3: "MKD",
     name: {
@@ -1705,7 +1706,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F0",
     numericCode: "807",
   },
-  {
+  MG: {
     alpha2: "MG",
     alpha3: "MDG",
     name: {
@@ -1718,7 +1719,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1EC",
     numericCode: "450",
   },
-  {
+  MW: {
     alpha2: "MW",
     alpha3: "MWI",
     name: {
@@ -1731,7 +1732,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FC",
     numericCode: "454",
   },
-  {
+  MY: {
     alpha2: "MY",
     alpha3: "MYS",
     name: {
@@ -1744,7 +1745,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FE",
     numericCode: "458",
   },
-  {
+  MV: {
     alpha2: "MV",
     alpha3: "MDV",
     name: {
@@ -1757,7 +1758,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FB",
     numericCode: "462",
   },
-  {
+  ML: {
     alpha2: "ML",
     alpha3: "MLI",
     name: {
@@ -1770,7 +1771,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F1",
     numericCode: "466",
   },
-  {
+  MT: {
     alpha2: "MT",
     alpha3: "MLT",
     name: {
@@ -1783,7 +1784,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F9",
     numericCode: "470",
   },
-  {
+  MH: {
     alpha2: "MH",
     alpha3: "MHL",
     name: {
@@ -1796,7 +1797,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1ED",
     numericCode: "584",
   },
-  {
+  MQ: {
     alpha2: "MQ",
     alpha3: "MTQ",
     name: {
@@ -1809,7 +1810,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F6",
     numericCode: "474",
   },
-  {
+  MR: {
     alpha2: "MR",
     alpha3: "MRT",
     name: {
@@ -1822,7 +1823,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F7",
     numericCode: "478",
   },
-  {
+  MU: {
     alpha2: "MU",
     alpha3: "MUS",
     name: {
@@ -1835,7 +1836,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FA",
     numericCode: "480",
   },
-  {
+  YT: {
     alpha2: "YT",
     alpha3: "MYT",
     name: {
@@ -1848,7 +1849,7 @@ const countries: Country[] = [
     unicode: "U+1F1FE U+1F1F9",
     numericCode: "175",
   },
-  {
+  MX: {
     alpha2: "MX",
     alpha3: "MEX",
     name: {
@@ -1861,7 +1862,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FD",
     numericCode: "484",
   },
-  {
+  FM: {
     alpha2: "FM",
     alpha3: "FSM",
     name: {
@@ -1874,7 +1875,7 @@ const countries: Country[] = [
     unicode: "U+1F1EB U+1F1F2",
     numericCode: "583",
   },
-  {
+  MD: {
     alpha2: "MD",
     alpha3: "MDA",
     name: {
@@ -1887,7 +1888,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1E9",
     numericCode: "498",
   },
-  {
+  MC: {
     alpha2: "MC",
     alpha3: "MCO",
     name: {
@@ -1900,7 +1901,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1E8",
     numericCode: "492",
   },
-  {
+  MN: {
     alpha2: "MN",
     alpha3: "MNG",
     name: {
@@ -1913,7 +1914,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F3",
     numericCode: "496",
   },
-  {
+  ME: {
     alpha2: "ME",
     alpha3: "MNE",
     name: {
@@ -1926,7 +1927,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1EA",
     numericCode: "499",
   },
-  {
+  MS: {
     alpha2: "MS",
     alpha3: "MSR",
     name: {
@@ -1939,7 +1940,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F8",
     numericCode: "500",
   },
-  {
+  MA: {
     alpha2: "MA",
     alpha3: "MAR",
     name: {
@@ -1952,7 +1953,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1E6",
     numericCode: "504",
   },
-  {
+  MZ: {
     alpha2: "MZ",
     alpha3: "MOZ",
     name: {
@@ -1965,7 +1966,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1FF",
     numericCode: "508",
   },
-  {
+  MM: {
     alpha2: "MM",
     alpha3: "MMR",
     name: {
@@ -1978,7 +1979,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F2",
     numericCode: "104",
   },
-  {
+  NA: {
     alpha2: "NA",
     alpha3: "NAM",
     name: {
@@ -1991,7 +1992,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1E6",
     numericCode: "516",
   },
-  {
+  NR: {
     alpha2: "NR",
     alpha3: "NRU",
     name: {
@@ -2004,7 +2005,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1F7",
     numericCode: "520",
   },
-  {
+  NP: {
     alpha2: "NP",
     alpha3: "NPL",
     name: {
@@ -2017,7 +2018,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1F5",
     numericCode: "524",
   },
-  {
+  NL: {
     alpha2: "NL",
     alpha3: "NLD",
     name: {
@@ -2030,7 +2031,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1F1",
     numericCode: "528",
   },
-  {
+  AN: {
     alpha2: "AN",
     alpha3: "ANT",
     name: {
@@ -2043,7 +2044,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F6",
     numericCode: "599",
   },
-  {
+  NC: {
     alpha2: "NC",
     alpha3: "NCL",
     name: {
@@ -2056,7 +2057,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1E8",
     numericCode: "540",
   },
-  {
+  NZ: {
     alpha2: "NZ",
     alpha3: "NZL",
     name: {
@@ -2069,7 +2070,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1FF",
     numericCode: "554",
   },
-  {
+  NI: {
     alpha2: "NI",
     alpha3: "NIC",
     name: {
@@ -2082,7 +2083,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1EE",
     numericCode: "558",
   },
-  {
+  NE: {
     alpha2: "NE",
     alpha3: "NER",
     name: {
@@ -2095,7 +2096,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1EA",
     numericCode: "562",
   },
-  {
+  NG: {
     alpha2: "NG",
     alpha3: "NGA",
     name: {
@@ -2108,7 +2109,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1EC",
     numericCode: "566",
   },
-  {
+  NU: {
     alpha2: "NU",
     alpha3: "NIU",
     name: {
@@ -2121,7 +2122,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1FA",
     numericCode: "570",
   },
-  {
+  NF: {
     alpha2: "NF",
     alpha3: "NFK",
     name: {
@@ -2134,7 +2135,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1EB",
     numericCode: "574",
   },
-  {
+  MP: {
     alpha2: "MP",
     alpha3: "MNP",
     name: {
@@ -2147,7 +2148,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1F5",
     numericCode: "580",
   },
-  {
+  NO: {
     alpha2: "NO",
     alpha3: "NOR",
     name: {
@@ -2160,7 +2161,7 @@ const countries: Country[] = [
     unicode: "U+1F1F3 U+1F1F4",
     numericCode: "578",
   },
-  {
+  OM: {
     alpha2: "OM",
     alpha3: "OMN",
     name: {
@@ -2173,7 +2174,7 @@ const countries: Country[] = [
     unicode: "U+1F1F4 U+1F1F2",
     numericCode: "512",
   },
-  {
+  PK: {
     alpha2: "PK",
     alpha3: "PAK",
     name: {
@@ -2186,7 +2187,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F0",
     numericCode: "586",
   },
-  {
+  PW: {
     alpha2: "PW",
     alpha3: "PLW",
     name: {
@@ -2199,7 +2200,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1FC",
     numericCode: "585",
   },
-  {
+  PS: {
     alpha2: "PS",
     alpha3: "PSE",
     name: {
@@ -2212,7 +2213,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F8",
     numericCode: "275",
   },
-  {
+  PA: {
     alpha2: "PA",
     alpha3: "PAN",
     name: {
@@ -2225,7 +2226,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1E6",
     numericCode: "591",
   },
-  {
+  PG: {
     alpha2: "PG",
     alpha3: "PNG",
     name: {
@@ -2238,7 +2239,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1EC",
     numericCode: "598",
   },
-  {
+  PY: {
     alpha2: "PY",
     alpha3: "PRY",
     name: {
@@ -2251,7 +2252,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1FE",
     numericCode: "600",
   },
-  {
+  PE: {
     alpha2: "PE",
     alpha3: "PER",
     name: {
@@ -2264,7 +2265,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1EA",
     numericCode: "604",
   },
-  {
+  PH: {
     alpha2: "PH",
     alpha3: "PHL",
     name: {
@@ -2277,7 +2278,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1ED",
     numericCode: "608",
   },
-  {
+  PN: {
     alpha2: "PN",
     alpha3: "PCN",
     name: {
@@ -2290,7 +2291,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F3",
     numericCode: "612",
   },
-  {
+  PL: {
     alpha2: "PL",
     alpha3: "POL",
     name: {
@@ -2303,7 +2304,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F1",
     numericCode: "616",
   },
-  {
+  PT: {
     alpha2: "PT",
     alpha3: "PRT",
     name: {
@@ -2316,7 +2317,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F9",
     numericCode: "620",
   },
-  {
+  PR: {
     alpha2: "PR",
     alpha3: "PRI",
     name: {
@@ -2329,7 +2330,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F7",
     numericCode: "630",
   },
-  {
+  QA: {
     alpha2: "QA",
     alpha3: "QAT",
     name: {
@@ -2342,7 +2343,7 @@ const countries: Country[] = [
     unicode: "U+1F1F6 U+1F1E6",
     numericCode: "634",
   },
-  {
+  RO: {
     alpha2: "RO",
     alpha3: "ROU",
     name: {
@@ -2355,7 +2356,7 @@ const countries: Country[] = [
     unicode: "U+1F1F7 U+1F1F4",
     numericCode: "642",
   },
-  {
+  RU: {
     alpha2: "RU",
     alpha3: "RUS",
     name: {
@@ -2368,7 +2369,7 @@ const countries: Country[] = [
     unicode: "U+1F1F7 U+1F1FA",
     numericCode: "643",
   },
-  {
+  RW: {
     alpha2: "RW",
     alpha3: "RWA",
     name: {
@@ -2381,7 +2382,7 @@ const countries: Country[] = [
     unicode: "U+1F1F7 U+1F1FC",
     numericCode: "646",
   },
-  {
+  RE: {
     alpha2: "RE",
     alpha3: "REU",
     name: {
@@ -2394,7 +2395,7 @@ const countries: Country[] = [
     unicode: "U+1F1F7 U+1F1EA",
     numericCode: "638",
   },
-  {
+  BL: {
     alpha2: "BL",
     alpha3: "BLM",
     name: {
@@ -2407,7 +2408,7 @@ const countries: Country[] = [
     unicode: "U+1F1E7 U+1F1F1",
     numericCode: "652",
   },
-  {
+  SH: {
     alpha2: "SH",
     alpha3: "SHN",
     name: {
@@ -2420,7 +2421,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1ED",
     numericCode: "654",
   },
-  {
+  KN: {
     alpha2: "KN",
     alpha3: "KNA",
     name: {
@@ -2433,7 +2434,7 @@ const countries: Country[] = [
     unicode: "U+1F1F0 U+1F1F3",
     numericCode: "659",
   },
-  {
+  LC: {
     alpha2: "LC",
     alpha3: "LCA",
     name: {
@@ -2446,7 +2447,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1E8",
     numericCode: "662",
   },
-  {
+  MF: {
     alpha2: "MF",
     alpha3: "MAF",
     name: {
@@ -2459,7 +2460,7 @@ const countries: Country[] = [
     unicode: "U+1F1F2 U+1F1EB",
     numericCode: "663",
   },
-  {
+  PM: {
     alpha2: "PM",
     alpha3: "SPM",
     name: {
@@ -2472,7 +2473,7 @@ const countries: Country[] = [
     unicode: "U+1F1F5 U+1F1F2",
     numericCode: "666",
   },
-  {
+  VC: {
     alpha2: "VC",
     alpha3: "VCT",
     name: {
@@ -2485,7 +2486,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1E8",
     numericCode: "670",
   },
-  {
+  WS: {
     alpha2: "WS",
     alpha3: "WSM",
     name: {
@@ -2498,7 +2499,7 @@ const countries: Country[] = [
     unicode: "U+1F1FC U+1F1F8",
     numericCode: "882",
   },
-  {
+  SM: {
     alpha2: "SM",
     alpha3: "SMR",
     name: {
@@ -2511,7 +2512,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F2",
     numericCode: "674",
   },
-  {
+  ST: {
     alpha2: "ST",
     alpha3: "STP",
     name: {
@@ -2524,7 +2525,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F9",
     numericCode: "678",
   },
-  {
+  SA: {
     alpha2: "SA",
     alpha3: "SAU",
     name: {
@@ -2537,7 +2538,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1E6",
     numericCode: "682",
   },
-  {
+  SN: {
     alpha2: "SN",
     alpha3: "SEN",
     name: {
@@ -2550,7 +2551,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F3",
     numericCode: "686",
   },
-  {
+  RS: {
     alpha2: "RS",
     alpha3: "SRB",
     name: {
@@ -2563,7 +2564,7 @@ const countries: Country[] = [
     unicode: "U+1F1F7 U+1F1F8",
     numericCode: "688",
   },
-  {
+  SC: {
     alpha2: "SC",
     alpha3: "SYC",
     name: {
@@ -2576,7 +2577,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1E8",
     numericCode: "690",
   },
-  {
+  SL: {
     alpha2: "SL",
     alpha3: "SLE",
     name: {
@@ -2589,7 +2590,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F1",
     numericCode: "694",
   },
-  {
+  SG: {
     alpha2: "SG",
     alpha3: "SGP",
     name: {
@@ -2602,7 +2603,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1EC",
     numericCode: "702",
   },
-  {
+  SK: {
     alpha2: "SK",
     alpha3: "SVK",
     name: {
@@ -2615,7 +2616,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F0",
     numericCode: "703",
   },
-  {
+  SI: {
     alpha2: "SI",
     alpha3: "SVN",
     name: {
@@ -2628,7 +2629,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1EE",
     numericCode: "705",
   },
-  {
+  SB: {
     alpha2: "SB",
     alpha3: "SLB",
     name: {
@@ -2641,7 +2642,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1E7",
     numericCode: "090",
   },
-  {
+  SO: {
     alpha2: "SO",
     alpha3: "SOM",
     name: {
@@ -2654,7 +2655,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F4",
     numericCode: "706",
   },
-  {
+  ZA: {
     alpha2: "ZA",
     alpha3: "ZAF",
     name: {
@@ -2667,7 +2668,7 @@ const countries: Country[] = [
     unicode: "U+1F1FF U+1F1E6",
     numericCode: "710",
   },
-  {
+  SS: {
     alpha2: "SS",
     alpha3: "SSD",
     name: {
@@ -2680,7 +2681,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F8",
     numericCode: "728",
   },
-  {
+  GS: {
     alpha2: "GS",
     alpha3: "SGS",
     name: {
@@ -2693,7 +2694,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1F8",
     numericCode: "239",
   },
-  {
+  ES: {
     alpha2: "ES",
     alpha3: "ESP",
     name: {
@@ -2706,7 +2707,7 @@ const countries: Country[] = [
     unicode: "U+1F1EA U+1F1F8",
     numericCode: "724",
   },
-  {
+  LK: {
     alpha2: "LK",
     alpha3: "LKA",
     name: {
@@ -2719,7 +2720,7 @@ const countries: Country[] = [
     unicode: "U+1F1F1 U+1F1F0",
     numericCode: "144",
   },
-  {
+  SD: {
     alpha2: "SD",
     alpha3: "SDN",
     name: {
@@ -2732,7 +2733,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1E9",
     numericCode: "729",
   },
-  {
+  SR: {
     alpha2: "SR",
     alpha3: "SUR",
     name: {
@@ -2745,7 +2746,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1F7",
     numericCode: "740",
   },
-  {
+  SJ: {
     alpha2: "SJ",
     alpha3: "SJM",
     name: {
@@ -2758,7 +2759,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1EF",
     numericCode: "744",
   },
-  {
+  SZ: {
     alpha2: "SZ",
     alpha3: "SWZ",
     name: {
@@ -2771,7 +2772,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1FF",
     numericCode: "748",
   },
-  {
+  SE: {
     alpha2: "SE",
     alpha3: "SWE",
     name: {
@@ -2784,7 +2785,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1EA",
     numericCode: "752",
   },
-  {
+  CH: {
     alpha2: "CH",
     alpha3: "CHE",
     name: {
@@ -2797,7 +2798,7 @@ const countries: Country[] = [
     unicode: "U+1F1E8 U+1F1ED",
     numericCode: "756",
   },
-  {
+  SY: {
     alpha2: "SY",
     alpha3: "SYR",
     name: {
@@ -2810,7 +2811,7 @@ const countries: Country[] = [
     unicode: "U+1F1F8 U+1F1FE",
     numericCode: "760",
   },
-  {
+  TW: {
     alpha2: "TW",
     alpha3: "TWN",
     name: {
@@ -2823,7 +2824,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1FC",
     numericCode: "158",
   },
-  {
+  TJ: {
     alpha2: "TJ",
     alpha3: "TJK",
     name: {
@@ -2836,7 +2837,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1EF",
     numericCode: "762",
   },
-  {
+  TZ: {
     alpha2: "TZ",
     alpha3: "TZA",
     name: {
@@ -2849,7 +2850,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1FF",
     numericCode: "834",
   },
-  {
+  TH: {
     alpha2: "TH",
     alpha3: "THA",
     name: {
@@ -2862,7 +2863,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1ED",
     numericCode: "764",
   },
-  {
+  TL: {
     alpha2: "TL",
     alpha3: "TLS",
     name: {
@@ -2875,7 +2876,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F1",
     numericCode: "626",
   },
-  {
+  TG: {
     alpha2: "TG",
     alpha3: "TGO",
     name: {
@@ -2888,7 +2889,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1EC",
     numericCode: "768",
   },
-  {
+  TK: {
     alpha2: "TK",
     alpha3: "TKL",
     name: {
@@ -2901,7 +2902,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F0",
     numericCode: "772",
   },
-  {
+  TO: {
     alpha2: "TO",
     alpha3: "TON",
     name: {
@@ -2914,7 +2915,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F4",
     numericCode: "776",
   },
-  {
+  TT: {
     alpha2: "TT",
     alpha3: "TTO",
     name: {
@@ -2927,7 +2928,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F9",
     numericCode: "780",
   },
-  {
+  TN: {
     alpha2: "TN",
     alpha3: "TUN",
     name: {
@@ -2940,7 +2941,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F3",
     numericCode: "788",
   },
-  {
+  TR: {
     alpha2: "TR",
     alpha3: "TUR",
     name: {
@@ -2953,7 +2954,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F7",
     numericCode: "792",
   },
-  {
+  TM: {
     alpha2: "TM",
     alpha3: "TKM",
     name: {
@@ -2966,7 +2967,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1F2",
     numericCode: "795",
   },
-  {
+  TC: {
     alpha2: "TC",
     alpha3: "TCA",
     name: {
@@ -2979,7 +2980,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1E8",
     numericCode: "796",
   },
-  {
+  TV: {
     alpha2: "TV",
     alpha3: "TUV",
     name: {
@@ -2992,7 +2993,7 @@ const countries: Country[] = [
     unicode: "U+1F1F9 U+1F1FB",
     numericCode: "798",
   },
-  {
+  UG: {
     alpha2: "UG",
     alpha3: "UGA",
     name: {
@@ -3005,7 +3006,7 @@ const countries: Country[] = [
     unicode: "U+1F1FA U+1F1EC",
     numericCode: "800",
   },
-  {
+  UA: {
     alpha2: "UA",
     alpha3: "UKR",
     name: {
@@ -3018,7 +3019,7 @@ const countries: Country[] = [
     unicode: "U+1F1FA U+1F1E6",
     numericCode: "804",
   },
-  {
+  AE: {
     alpha2: "AE",
     alpha3: "ARE",
     name: {
@@ -3031,7 +3032,7 @@ const countries: Country[] = [
     unicode: "U+1F1E6 U+1F1EA",
     numericCode: "784",
   },
-  {
+  GB: {
     alpha2: "GB",
     alpha3: "GBR",
     name: {
@@ -3044,7 +3045,7 @@ const countries: Country[] = [
     unicode: "U+1F1EC U+1F1E7",
     numericCode: "826",
   },
-  {
+  US: {
     alpha2: "US",
     alpha3: "USA",
     name: {
@@ -3057,7 +3058,7 @@ const countries: Country[] = [
     unicode: "U+1F1FA U+1F1F8",
     numericCode: "840",
   },
-  {
+  UY: {
     alpha2: "UY",
     alpha3: "URY",
     name: {
@@ -3070,7 +3071,7 @@ const countries: Country[] = [
     unicode: "U+1F1FA U+1F1FE",
     numericCode: "858",
   },
-  {
+  UZ: {
     alpha2: "UZ",
     alpha3: "UZB",
     name: {
@@ -3083,7 +3084,7 @@ const countries: Country[] = [
     unicode: "U+1F1FA U+1F1FF",
     numericCode: "860",
   },
-  {
+  VU: {
     alpha2: "VU",
     alpha3: "VUT",
     name: {
@@ -3096,7 +3097,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1FA",
     numericCode: "548",
   },
-  {
+  VE: {
     alpha2: "VE",
     alpha3: "VEN",
     name: {
@@ -3109,7 +3110,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1EA",
     numericCode: "862",
   },
-  {
+  VN: {
     alpha2: "VN",
     alpha3: "VNM",
     name: {
@@ -3122,7 +3123,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1F3",
     numericCode: "704",
   },
-  {
+  VG: {
     alpha2: "VG",
     alpha3: "VGB",
     name: {
@@ -3135,7 +3136,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1EC",
     numericCode: "092",
   },
-  {
+  VI: {
     alpha2: "VI",
     alpha3: "VIR",
     name: {
@@ -3148,7 +3149,7 @@ const countries: Country[] = [
     unicode: "U+1F1FB U+1F1EE",
     numericCode: "850",
   },
-  {
+  WF: {
     alpha2: "WF",
     alpha3: "WLF",
     name: {
@@ -3161,7 +3162,7 @@ const countries: Country[] = [
     unicode: "U+1F1FC U+1F1EB",
     numericCode: "876",
   },
-  {
+  YE: {
     alpha2: "YE",
     alpha3: "YEM",
     name: {
@@ -3174,7 +3175,7 @@ const countries: Country[] = [
     unicode: "U+1F1FE U+1F1EA",
     numericCode: "887",
   },
-  {
+  ZM: {
     alpha2: "ZM",
     alpha3: "ZMB",
     name: {
@@ -3187,7 +3188,7 @@ const countries: Country[] = [
     unicode: "U+1F1FF U+1F1F2",
     numericCode: "894",
   },
-  {
+  ZW: {
     alpha2: "ZW",
     alpha3: "ZWE",
     name: {
@@ -3200,6 +3201,732 @@ const countries: Country[] = [
     unicode: "U+1F1FF U+1F1FC",
     numericCode: "716",
   },
-];
+};
 
-export default countries;
+export const alpha3ToAlpha2: Record<string, string> = {
+  AFG: "AF",
+  ALA: "AX",
+  ALB: "AL",
+  DZA: "DZ",
+  ASM: "AS",
+  AND: "AD",
+  AGO: "AO",
+  AIA: "AI",
+  ATA: "AQ",
+  ATG: "AG",
+  ARG: "AR",
+  ARM: "AM",
+  ABW: "AW",
+  AUS: "AU",
+  AUT: "AT",
+  AZE: "AZ",
+  BHS: "BS",
+  BHR: "BH",
+  BGD: "BD",
+  BRB: "BB",
+  BLR: "BY",
+  BEL: "BE",
+  BLZ: "BZ",
+  BEN: "BJ",
+  BMU: "BM",
+  BTN: "BT",
+  BOL: "BO",
+  BIH: "BA",
+  BWA: "BW",
+  BVT: "BV",
+  BRA: "BR",
+  IOT: "IO",
+  BRN: "BN",
+  BGR: "BG",
+  BFA: "BF",
+  BDI: "BI",
+  KHM: "KH",
+  CMR: "CM",
+  CAN: "CA",
+  CPV: "CV",
+  CYM: "KY",
+  CAF: "CF",
+  TCD: "TD",
+  CHL: "CL",
+  CHN: "CN",
+  CXR: "CX",
+  CCK: "CC",
+  COL: "CO",
+  COM: "KM",
+  COG: "CG",
+  COD: "KP",
+  COK: "CK",
+  CRI: "CR",
+  CIV: "CI",
+  HRV: "HR",
+  CUB: "CU",
+  CYP: "CY",
+  CZE: "CZ",
+  DNK: "DK",
+  DJI: "DJ",
+  DMA: "DM",
+  DOM: "DO",
+  ECU: "EC",
+  EGY: "EG",
+  SLV: "SV",
+  GNQ: "GQ",
+  ERI: "ER",
+  EST: "EE",
+  ETH: "ET",
+  FLK: "FK",
+  FRO: "FO",
+  FJI: "FJ",
+  FIN: "FI",
+  FRA: "FR",
+  GUF: "GF",
+  PYF: "PF",
+  ATF: "TF",
+  GAB: "GA",
+  GMB: "GM",
+  GEO: "GE",
+  DEU: "DE",
+  GHA: "GH",
+  GIB: "GI",
+  GRC: "GR",
+  GRL: "GL",
+  GRD: "GD",
+  GLP: "GP",
+  GUM: "GU",
+  GTM: "GT",
+  GGY: "GG",
+  GIN: "GN",
+  GNB: "GW",
+  GUY: "GY",
+  HTI: "HT",
+  HMD: "HM",
+  VAT: "VA",
+  HND: "HN",
+  HKG: "HK",
+  HUN: "HU",
+  ISL: "IS",
+  IND: "IN",
+  IDN: "ID",
+  IRN: "IR",
+  IRQ: "IQ",
+  IRL: "IE",
+  IMN: "IM",
+  ISR: "IL",
+  ITA: "IT",
+  JAM: "JM",
+  JPN: "JP",
+  JEY: "JE",
+  JOR: "JO",
+  KAZ: "KZ",
+  KEN: "KE",
+  KIR: "KI",
+  KOR: "KR",
+  XXK: "XK",
+  KWT: "KW",
+  KGZ: "KG",
+  LAO: "LA",
+  LVA: "LV",
+  LBN: "LB",
+  LSO: "LS",
+  LBR: "LR",
+  LBY: "LY",
+  LIE: "LI",
+  LTU: "LT",
+  LUX: "LU",
+  MAC: "MO",
+  MKD: "MK",
+  MDG: "MG",
+  MWI: "MW",
+  MYS: "MY",
+  MDV: "MV",
+  MLI: "ML",
+  MLT: "MT",
+  MHL: "MH",
+  MTQ: "MQ",
+  MRT: "MR",
+  MUS: "MU",
+  MYT: "YT",
+  MEX: "MX",
+  FSM: "FM",
+  MDA: "MD",
+  MCO: "MC",
+  MNG: "MN",
+  MNE: "ME",
+  MSR: "MS",
+  MAR: "MA",
+  MOZ: "MZ",
+  MMR: "MM",
+  NAM: "NA",
+  NRU: "NR",
+  NPL: "NP",
+  NLD: "NL",
+  ANT: "AN",
+  NCL: "NC",
+  NZL: "NZ",
+  NIC: "NI",
+  NER: "NE",
+  NGA: "NG",
+  NIU: "NU",
+  NFK: "NF",
+  MNP: "MP",
+  NOR: "NO",
+  OMN: "OM",
+  PAK: "PK",
+  PLW: "PW",
+  PSE: "PS",
+  PAN: "PA",
+  PNG: "PG",
+  PRY: "PY",
+  PER: "PE",
+  PHL: "PH",
+  PCN: "PN",
+  POL: "PL",
+  PRT: "PT",
+  PRI: "PR",
+  QAT: "QA",
+  ROU: "RO",
+  RUS: "RU",
+  RWA: "RW",
+  REU: "RE",
+  BLM: "BL",
+  SHN: "SH",
+  KNA: "KN",
+  LCA: "LC",
+  MAF: "MF",
+  SPM: "PM",
+  VCT: "VC",
+  WSM: "WS",
+  SMR: "SM",
+  STP: "ST",
+  SAU: "SA",
+  SEN: "SN",
+  SRB: "RS",
+  SYC: "SC",
+  SLE: "SL",
+  SGP: "SG",
+  SVK: "SK",
+  SVN: "SI",
+  SLB: "SB",
+  SOM: "SO",
+  ZAF: "ZA",
+  SSD: "SS",
+  SGS: "GS",
+  ESP: "ES",
+  LKA: "LK",
+  SDN: "SD",
+  SUR: "SR",
+  SJM: "SJ",
+  SWZ: "SZ",
+  SWE: "SE",
+  CHE: "CH",
+  SYR: "SY",
+  TWN: "TW",
+  TJK: "TJ",
+  TZA: "TZ",
+  THA: "TH",
+  TLS: "TL",
+  TGO: "TG",
+  TKL: "TK",
+  TON: "TO",
+  TTO: "TT",
+  TUN: "TN",
+  TUR: "TR",
+  TKM: "TM",
+  TCA: "TC",
+  TUV: "TV",
+  UGA: "UG",
+  UKR: "UA",
+  ARE: "AE",
+  GBR: "GB",
+  USA: "US",
+  URY: "UY",
+  UZB: "UZ",
+  VUT: "VU",
+  VEN: "VE",
+  VNM: "VN",
+  VGB: "VG",
+  VIR: "VI",
+  WLF: "WF",
+  YEM: "YE",
+  ZMB: "ZM",
+  ZWE: "ZW",
+};
+
+export const dialCodeToAlpha2: Record<string, string> = {
+  "+93": "AF",
+  "+358": "FI",
+  "+355": "AL",
+  "+213": "DZ",
+  "+1684": "AS",
+  "+376": "AD",
+  "+244": "AO",
+  "+1264": "AI",
+  "+672": "NF",
+  "+1268": "AG",
+  "+54": "AR",
+  "+374": "AM",
+  "+297": "AW",
+  "+61": "CC",
+  "+43": "AT",
+  "+994": "AZ",
+  "+1242": "BS",
+  "+973": "BH",
+  "+880": "BD",
+  "+1246": "BB",
+  "+375": "BY",
+  "+32": "BE",
+  "+501": "BZ",
+  "+229": "BJ",
+  "+1441": "BM",
+  "+975": "BT",
+  "+591": "BO",
+  "+387": "BA",
+  "+267": "BW",
+  "+47": "SJ",
+  "+55": "BR",
+  "+246": "IO",
+  "+673": "BN",
+  "+359": "BG",
+  "+226": "BF",
+  "+257": "BI",
+  "+855": "KH",
+  "+237": "CM",
+  "+1": "US",
+  "+238": "CV",
+  "+345": "KY",
+  "+236": "CF",
+  "+235": "TD",
+  "+56": "CL",
+  "+86": "CN",
+  "+57": "CO",
+  "+269": "KM",
+  "+242": "CG",
+  "+243": "CD",
+  "+682": "CK",
+  "+506": "CR",
+  "+225": "CI",
+  "+385": "HR",
+  "+53": "CU",
+  "+357": "CY",
+  "+420": "CZ",
+  "+45": "DK",
+  "+253": "DJ",
+  "+1767": "DM",
+  "+1849": "DO",
+  "+593": "EC",
+  "+20": "EG",
+  "+503": "SV",
+  "+240": "GQ",
+  "+291": "ER",
+  "+372": "EE",
+  "+251": "ET",
+  "+500": "GS",
+  "+298": "FO",
+  "+679": "FJ",
+  "+33": "FR",
+  "+594": "GF",
+  "+689": "PF",
+  "+262": "RE",
+  "+241": "GA",
+  "+220": "GM",
+  "+995": "GE",
+  "+49": "DE",
+  "+233": "GH",
+  "+350": "GI",
+  "+30": "GR",
+  "+299": "GL",
+  "+1473": "GD",
+  "+590": "MF",
+  "+1671": "GU",
+  "+502": "GT",
+  "+44": "GB",
+  "+224": "GN",
+  "+245": "GW",
+  "+592": "GY",
+  "+509": "HT",
+  "+379": "VA",
+  "+504": "HN",
+  "+852": "HK",
+  "+36": "HU",
+  "+354": "IS",
+  "+91": "IN",
+  "+62": "ID",
+  "+98": "IR",
+  "+964": "IQ",
+  "+353": "IE",
+  "+972": "IL",
+  "+39": "IT",
+  "+1876": "JM",
+  "+81": "JP",
+  "+962": "JO",
+  "+7": "RU",
+  "+254": "KE",
+  "+686": "KI",
+  "+850": "KP",
+  "+82": "KR",
+  "+383": "XK",
+  "+965": "KW",
+  "+996": "KG",
+  "+856": "LA",
+  "+371": "LV",
+  "+961": "LB",
+  "+266": "LS",
+  "+231": "LR",
+  "+218": "LY",
+  "+423": "LI",
+  "+370": "LT",
+  "+352": "LU",
+  "+853": "MO",
+  "+389": "MK",
+  "+261": "MG",
+  "+265": "MW",
+  "+60": "MY",
+  "+960": "MV",
+  "+223": "ML",
+  "+356": "MT",
+  "+692": "MH",
+  "+596": "MQ",
+  "+222": "MR",
+  "+230": "MU",
+  "+52": "MX",
+  "+691": "FM",
+  "+373": "MD",
+  "+377": "MC",
+  "+976": "MN",
+  "+382": "ME",
+  "+1664": "MS",
+  "+212": "MA",
+  "+258": "MZ",
+  "+95": "MM",
+  "+264": "NA",
+  "+674": "NR",
+  "+977": "NP",
+  "+31": "NL",
+  "+599": "AN",
+  "+687": "NC",
+  "+64": "PN",
+  "+505": "NI",
+  "+227": "NE",
+  "+234": "NG",
+  "+683": "NU",
+  "+1670": "MP",
+  "+968": "OM",
+  "+92": "PK",
+  "+680": "PW",
+  "+970": "PS",
+  "+507": "PA",
+  "+675": "PG",
+  "+595": "PY",
+  "+51": "PE",
+  "+63": "PH",
+  "+48": "PL",
+  "+351": "PT",
+  "+1939": "PR",
+  "+974": "QA",
+  "+40": "RO",
+  "+250": "RW",
+  "+290": "SH",
+  "+1869": "KN",
+  "+1758": "LC",
+  "+508": "PM",
+  "+1784": "VC",
+  "+685": "WS",
+  "+378": "SM",
+  "+239": "ST",
+  "+966": "SA",
+  "+221": "SN",
+  "+381": "RS",
+  "+248": "SC",
+  "+232": "SL",
+  "+65": "SG",
+  "+421": "SK",
+  "+386": "SI",
+  "+677": "SB",
+  "+252": "SO",
+  "+27": "ZA",
+  "+211": "SS",
+  "+34": "ES",
+  "+94": "LK",
+  "+249": "SD",
+  "+597": "SR",
+  "+268": "SZ",
+  "+46": "SE",
+  "+41": "CH",
+  "+963": "SY",
+  "+886": "TW",
+  "+992": "TJ",
+  "+255": "TZ",
+  "+66": "TH",
+  "+670": "TL",
+  "+228": "TG",
+  "+690": "TK",
+  "+676": "TO",
+  "+1868": "TT",
+  "+216": "TN",
+  "+90": "TR",
+  "+993": "TM",
+  "+1649": "TC",
+  "+688": "TV",
+  "+256": "UG",
+  "+380": "UA",
+  "+971": "AE",
+  "+598": "UY",
+  "+998": "UZ",
+  "+678": "VU",
+  "+58": "VE",
+  "+84": "VN",
+  "+1284": "VG",
+  "+1340": "VI",
+  "+681": "WF",
+  "+967": "YE",
+  "+260": "ZM",
+  "+263": "ZW",
+};
+
+export const numericCodeToAlpha2: Record<string, string> = {
+  "100": "BG",
+  "104": "MM",
+  "108": "BI",
+  "112": "BY",
+  "116": "KH",
+  "120": "CM",
+  "124": "CA",
+  "132": "CV",
+  "136": "KY",
+  "140": "CF",
+  "144": "LK",
+  "148": "TD",
+  "152": "CL",
+  "156": "CN",
+  "158": "TW",
+  "162": "CX",
+  "166": "CC",
+  "170": "CO",
+  "174": "KM",
+  "175": "YT",
+  "178": "CG",
+  "180": "CD",
+  "184": "CK",
+  "188": "CR",
+  "191": "HR",
+  "192": "CU",
+  "196": "CY",
+  "203": "CZ",
+  "204": "BJ",
+  "208": "DK",
+  "212": "DM",
+  "214": "DO",
+  "218": "EC",
+  "222": "SV",
+  "226": "GQ",
+  "231": "ET",
+  "232": "ER",
+  "233": "EE",
+  "234": "FO",
+  "238": "FK",
+  "239": "GS",
+  "242": "FJ",
+  "246": "FI",
+  "248": "AX",
+  "250": "FR",
+  "254": "GF",
+  "258": "PF",
+  "260": "TF",
+  "262": "DJ",
+  "266": "GA",
+  "268": "GE",
+  "270": "GM",
+  "275": "PS",
+  "276": "DE",
+  "288": "GH",
+  "292": "GI",
+  "296": "KI",
+  "300": "GR",
+  "304": "GL",
+  "308": "GD",
+  "312": "GP",
+  "316": "GU",
+  "320": "GT",
+  "324": "GN",
+  "328": "GY",
+  "332": "HT",
+  "334": "HM",
+  "336": "VA",
+  "340": "HN",
+  "344": "HK",
+  "348": "HU",
+  "352": "IS",
+  "356": "IN",
+  "360": "ID",
+  "364": "IR",
+  "368": "IQ",
+  "372": "IE",
+  "376": "IL",
+  "380": "IT",
+  "384": "CI",
+  "388": "JM",
+  "392": "JP",
+  "398": "KZ",
+  "400": "JO",
+  "404": "KE",
+  "408": "KP",
+  "410": "KR",
+  "414": "KW",
+  "417": "KG",
+  "418": "LA",
+  "422": "LB",
+  "426": "LS",
+  "428": "LV",
+  "430": "LR",
+  "434": "LY",
+  "438": "LI",
+  "440": "LT",
+  "442": "LU",
+  "446": "MO",
+  "450": "MG",
+  "454": "MW",
+  "458": "MY",
+  "462": "MV",
+  "466": "ML",
+  "470": "MT",
+  "474": "MQ",
+  "478": "MR",
+  "480": "MU",
+  "484": "MX",
+  "492": "MC",
+  "496": "MN",
+  "498": "MD",
+  "499": "ME",
+  "500": "MS",
+  "504": "MA",
+  "508": "MZ",
+  "512": "OM",
+  "516": "NA",
+  "520": "NR",
+  "524": "NP",
+  "528": "NL",
+  "533": "AW",
+  "540": "NC",
+  "548": "VU",
+  "554": "NZ",
+  "558": "NI",
+  "562": "NE",
+  "566": "NG",
+  "570": "NU",
+  "574": "NF",
+  "578": "NO",
+  "580": "MP",
+  "583": "FM",
+  "584": "MH",
+  "585": "PW",
+  "586": "PK",
+  "591": "PA",
+  "598": "PG",
+  "599": "AN",
+  "600": "PY",
+  "604": "PE",
+  "608": "PH",
+  "612": "PN",
+  "616": "PL",
+  "620": "PT",
+  "624": "GW",
+  "626": "TL",
+  "630": "PR",
+  "634": "QA",
+  "638": "RE",
+  "642": "RO",
+  "643": "RU",
+  "646": "RW",
+  "652": "BL",
+  "654": "SH",
+  "659": "KN",
+  "660": "AI",
+  "662": "LC",
+  "663": "MF",
+  "666": "PM",
+  "670": "VC",
+  "674": "SM",
+  "678": "ST",
+  "682": "SA",
+  "686": "SN",
+  "688": "RS",
+  "690": "SC",
+  "694": "SL",
+  "702": "SG",
+  "703": "SK",
+  "704": "VN",
+  "705": "SI",
+  "706": "SO",
+  "710": "ZA",
+  "716": "ZW",
+  "724": "ES",
+  "728": "SS",
+  "729": "SD",
+  "740": "SR",
+  "744": "SJ",
+  "748": "SZ",
+  "752": "SE",
+  "756": "CH",
+  "760": "SY",
+  "762": "TJ",
+  "764": "TH",
+  "768": "TG",
+  "772": "TK",
+  "776": "TO",
+  "780": "TT",
+  "784": "AE",
+  "788": "TN",
+  "792": "TR",
+  "795": "TM",
+  "796": "TC",
+  "798": "TV",
+  "800": "UG",
+  "804": "UA",
+  "807": "MK",
+  "818": "EG",
+  "826": "GB",
+  "831": "GG",
+  "832": "JE",
+  "833": "IM",
+  "834": "TZ",
+  "840": "US",
+  "850": "VI",
+  "854": "BF",
+  "858": "UY",
+  "860": "UZ",
+  "862": "VE",
+  "876": "WF",
+  "882": "WS",
+  "887": "YE",
+  "894": "ZM",
+  "926": "XK",
+  "004": "AF",
+  "008": "AL",
+  "012": "DZ",
+  "016": "AS",
+  "020": "AD",
+  "024": "AO",
+  "010": "AQ",
+  "028": "AG",
+  "032": "AR",
+  "051": "AM",
+  "036": "AU",
+  "040": "AT",
+  "031": "AZ",
+  "044": "BS",
+  "048": "BH",
+  "050": "BD",
+  "052": "BB",
+  "056": "BE",
+  "084": "BZ",
+  "060": "BM",
+  "064": "BT",
+  "068": "BO",
+  "070": "BA",
+  "072": "BW",
+  "074": "BV",
+  "076": "BR",
+  "086": "IO",
+  "096": "BN",
+  "090": "SB",
+  "092": "VG",
+};
