@@ -162,17 +162,17 @@
         "affectsGlobalScope": false
       },
       "./src/data/countries.ts": {
-        "version": "40440b5a85d17ba0217a32a686ae971015071061d3462d89f26e8d0d12064fdc",
-        "signature": "470c8b58c4f6c15e40dce1b63e9f84a548aa501bf308daca82a50c3ef616c416",
+        "version": "4bcc1ca7ebdf977b15c9a00db1ad139e73d9856bb34707a98340f5a350207966",
+        "signature": "089af013d7c468d0f10192017832d7abc4b19df403e70c4529ddad0e0bf67edf",
         "affectsGlobalScope": false
       },
       "./src/getcountry/getcountry.ts": {
-        "version": "1d223255ddba5bcedb3794bb20c3dc58803f8247905fa2edd6a176c8fc77df5f",
-        "signature": "569c53517e5d732369bde7df5bf9e95b319bfe2fb4285e69451e99ad7688b8a8",
+        "version": "0dde4e652fb1c611a8799d976911f8876b8a67478c42d07771db4cc5e93db4c5",
+        "signature": "49e810e2d4a50dd510bf9d19a41377d96a0deb54ead0b9897c6c8431336fc1c8",
         "affectsGlobalScope": false
       },
       "./src/getcountry/getcountrybydialcode.ts": {
-        "version": "454a64c4d0daf39ba80bd1f2089672146576048e636f6c63d0bd0b3f2a9c82c3",
+        "version": "bf7c7b5a5864d60d5311ab6a69710f0a34e5fb2bccc6263773ebae3f99fe7d3d",
         "signature": "81371efe76e23b3139e3eab6a8ac0ed73d58e0e4634bb41561228df2f9e9c8c9",
         "affectsGlobalScope": false
       },
@@ -182,8 +182,8 @@
         "affectsGlobalScope": false
       },
       "./src/svgurl/getfullsvgurl.ts": {
-        "version": "bb8b842dd78436811d541681111c4f250cb4a6a1e29e4e5f056bf874cb795eaf",
-        "signature": "7b79bbdac46cf13889449158263b3a48e20a2918668ab136f081b87bd84e25df",
+        "version": "0e303dbc967c816bb4b47ad1a0ad1029551ef7d9887196fd669bf1017ae62c11",
+        "signature": "b522dda7a4eb4bd2b52ded0732cf731f2442978a718caafa51c44c39ea1e412d",
         "affectsGlobalScope": false
       },
       "./src/svgurl/index.ts": {
@@ -192,12 +192,12 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "9805cbe6aef35ccaece62cad0d911eee33d26e12ca2c1898e3e41ae86a1a8102",
-        "signature": "6cb9ae32547a8e7af55414036add1321f35df1487d0284d44ea0befa53c9a6d8",
+        "version": "0469500efb2bcf0b65c20d2d1ac79804ce9044c74b28a3ed9b2e891dff0ff23b",
+        "signature": "f5b01216e255846b4b0777d756267a0f5f8aa35b335d0ff15a6f64f94545fd4b",
         "affectsGlobalScope": false
       },
       "./src/getcountry/getcountry.test.ts": {
-        "version": "2c155e22c34108a88bf60551118258c11503fb0af42976e969e2da04eed66e55",
+        "version": "f6b840427d08ae8fc2fd1d7b523b6cb1d28368fff21bad6158f65c7687673ff4",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -589,6 +589,7 @@
       "declaration": true,
       "outDir": "./lib",
       "rootDir": "./src",
+      "composite": true,
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
