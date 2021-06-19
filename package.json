@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "tsc && jest --config jestconfig.json",
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
@@ -14,9 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/so-heil/world-countries-info.git"
+    "url": "git+https://github.com/Stacrypt/world-countries-info.git"
   },
-  "keywords": [],
+  "keywords": [
+    "contries",
+    "alpha2",
+    "alpha3",
+    "flags",
+    "dial_number_prefixes"
+  ],
   "author": "so-heil",
   "license": "ISC",
   "devDependencies": {

@@ -1,4 +1,4 @@
-import countries from "../data/countries";
+import { alpha2ToCountries, dialCodeToAlpha2 } from "../data/countries";
 import { Country } from "../data/Country";
 
 /**
@@ -11,17 +11,7 @@ const getCountryByDialCode = (
   if (!/\+/.test(query)) {
     query = `+${query}`;
   }
-  let foundCountry: Country | undefined = undefined;
-  const length = countries.length;
-  for (let i = 0; i < length; i++) {
-    const country = countries[i];
-    const { dialCode } = country;
-    if (dialCode === query) {
-      foundCountry = country;
-      break;
-    }
-  }
-  return foundCountry;
+  return alpha2ToCountries[dialCodeToAlpha2[query]];
 };
 
 export default getCountryByDialCode;
