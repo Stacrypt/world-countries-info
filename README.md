@@ -30,7 +30,7 @@ const Netherlands = getCountryByDialCode(528)
 
 // This function helps you get the full svg url from wikimedia
 
-const USSvgUrl = US?.svgUrl && getFullSvgUrl(US.svgUrl)
+const USSvgUrl = US && getFullSvgUrl(US.svgUrl)
 
 ```
 
